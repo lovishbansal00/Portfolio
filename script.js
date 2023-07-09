@@ -1,11 +1,6 @@
 'use strict';
 
 
-
-/**
- * navbar toggle
- */
-
 const header = document.querySelector("[data-header]");
 const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
 
@@ -14,9 +9,6 @@ navToggleBtn.addEventListener("click", function () {
   this.classList.toggle("active");
 });
 
-/**
- * toggle the navbar when click any navbar link
- */
 
 const navbarLinks = document.querySelectorAll("[data-nav-link]");
 
@@ -28,12 +20,6 @@ for (let i = 0; i < navbarLinks.length; i++) {
 }
 
 
-
-
-
-/**
- * back to top & header
- */
 
 const backTopBtn = document.querySelector("[data-back-to-top]");
 
